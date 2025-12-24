@@ -26,7 +26,7 @@ class WonOrLost extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            (haveWon ? "You Won!" : "You Lost!"),
+            (haveWon ? "You Won!" : "You Lost"),
             style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
